@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab|Marcellus+SC|Nixie+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400i&display=swap');
+
+
+.header {
+  text-align: center;
+  /*background-color: #ff0000; */
+  
+  
+}
+
+.homeLinks {
+
+/* margin-left: -45px; */
+text-align: center; 
+/* background-color: #ff0000; */
+list-style-position: inside;
+
+
+}
+
+h1{
+  font-size: 80pt;
+  font-family: 'Nixie One', cursive;
+  letter-spacing: 20px;
+
+}
+
+h2 {
+  padding-top: 1px;
+  font-size: 20pt;
+  letter-spacing: 5px;
+  margin-top: -55px;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+
+
+li {
+  display: inline-block;
+  background:#7e7e7e7e;
+  padding: 5px;
+  color: #ffffff;
+  border-radius: 4px;
+
+  
+}
+
+.main {
+    margin: auto;
+    margin-top: 50px;
+   
+    /*width: 50%; */
+    /*border: 3px solid green; */
+    padding: 10px;
+    text-align: center;
+
+}
+.third1 {
+
+background-color: #000000;
+width: 180px;
+height: 500px;
+margin-right: 50px;
+display: inline-block;
+text-align: center;
+
+
+}
+
+.third2 {
+
+    background-color: #000000;
+    width: 180px;
+    height: 500px;
+    margin-right: 50px;
+    display: inline-block;
+    text-align: center;
+    
+    }
+
+.third3 {
+
+        background-color: #000000;
+        width: 180px;
+        height: 500px;
+        display: inline-block;
+        text-align: center;
+       
+        }
+
+.main p {
+
+    color: #ffffff;
+}
+
+h3 {
+
+    font-size: 20pt;
+    font-family: 'Nixie One', cursive;
+    letter-spacing: 10px;
+}
+
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
