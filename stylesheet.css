@@ -12,6 +12,17 @@
   
 }
 
+a:link, a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+li a:hover {
+ 
+  text-shadow: 2px 2px 5px #000000;
+}
+
 .homeLinks {
 
 /* margin-left: -45px; */
@@ -40,15 +51,62 @@ h2 {
 
 
 
-li {
+.homeLinks li {
   display: inline-block;
   background:#7e7e7e7e;
   padding: 5px;
   color: #ffffff;
   border-radius: 4px;
+  font-size:20px;
 
-  
 }
+
+
+
+/*.showcase-dropdown li {
+ 
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+} */
+
+.showcase-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.showcase-content {
+
+  display: none;
+   position: absolute;
+   background-color: #eeeeee;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ 
+}
+
+.showcase-content a {
+  color: black;
+  padding: 4px 8px;
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+}
+
+.showcase-dropdown:hover .showcase-content {
+  display: block;
+
+}
+
+
+.showcase-content a:hover {
+  background-color: #ddd;
+
+}
+
+
 
 .main {
     margin: auto;
@@ -80,6 +138,7 @@ text-align: center;
     margin-right: 50px;
     display: inline-block;
     text-align: center;
+  
     
     }
 
@@ -119,6 +178,8 @@ u {
   text-decoration: none;
   border-bottom: 3px solid black;
 }​
+
+
 
 html, body, div, span, applet, object, iframe, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
